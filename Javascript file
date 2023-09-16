@@ -1,0 +1,45 @@
+var arr=[
+"app2.jpg"
+,"app4.jpg"
+,"app.jpg"];
+var arr2=[
+    "CLICK! Fast and Easy",
+    "Smart Design",
+    "Take photos with our app"
+];
+var arr3=[
+    "Choose from thousands of features",
+    "Customize photos as you go",
+    "Super simple installment: free of charge"
+];
+
+var num=0;
+function change_img(){
+
+    var new_src=document.getElementById("img1");
+    var new_h1=document.getElementById("first_block_h1");
+    var new_p=document.getElementById("first_block_p");
+    var button1=document.getElementById
+    ("button1");
+    num=num+1; 
+    if (num>=arr.length){
+            num=0;
+    }
+    new_src.src=arr[num];
+    new_h1.innerHTML=arr2[num];
+    new_p.innerHTML=arr3[num];
+     if(new_h1.innerHTML==arr2[0]){
+        button1.style.backgroundColor="#FF4433";
+    }else if(new_h1.innerHTML==arr2[1]){
+        button1.style.backgroundColor="blue";
+
+    }else if(new_h1.innerHTML==arr2[2]){
+        button1.style.backgroundColor="limegreen";
+    }
+
+
+        
+  
+     
+     
+}
