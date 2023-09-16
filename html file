@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styling.css">
+
+        
+        <script src="dynamic.js"></script>
+    </head>
+    <body>
+       
+    <div class="allpages">
+        <img src="app.jpg" alt="app" id="img1" style="width:1500 ; height:1000 ;">
+        <div class="first_block">
+        <h1 id="first_block_h1">Take photos with our app</h1>
+        <hr class="horizontal_line">
+        <p id="first_block_p" style="font-size: larger;">Super simple installment: free of charge</p>
+        <button id="button1" onclick="document.getElementById('downl').style.display='block'">Download</button>
+        </div>
+        <button class="take_tour" onclick="change_img()">Take Tour </button> 
+       
+
+
+    
+    <div >
+        <h1 class="app"><b>The App</b></h1>
+        <h1 class="whybuyit"><b>Why buy it?</b></h1>
+
+        <p class="description">
+    <b>Take photos like a pro.</b>You should buy this app because it’s easy-to-use video editing functions,
+    free in-APP fonts and effects, free advanced features such as keyframe animation,
+    smooth slow-motion, chroma key, and stabilization, to help you capture and snip moments.Create fancy
+    videos with other unique features: auto captions, text-
+    to-speech, motion tracking, and background removal. Show your personality and go
+    viral on TikTok, YouTube, Instagram, WhatsApp, and Facebook!</p>
+        <img src="img_app.jpg" class="img2">
+
+        <button id="button2">Download Application</button>
+    <p class="Available">Available for</p>    
+
+
+
+    </div>
+    <div class="thirddiv">
+        
+        <h1 class="clarity">Clarity</h1>
+        <h1 class="pixelswho">Pixels, who?</h1>
+    <p class="paragraph2">
+    <b>A revolution in resolution.</b> Sharp and clear photos with the world's best photo engine,  with everything you
+    need to create stunning, high-quality videos. Beginners can get started in a matter of seconds, while advanced users
+    can enjoy all the functions they need to edit videos. Express your individuality with exclusive video editor and
+    video maker functions. After your video is created, you can share it across social media with
+    one click, accruing everyone's likes, comments and attention.
+    </p>
+    <img src="app5.jpg" class="img3">  
+
+
+
+
+    </div>
+
+    
+    <div class="features" >
+        <h1 class="h1features" ><b>Features</b></h1>
+        <p class="f_para">This app is just so great.</p>
+
+    <div class="firstRow">
+        <div class="column" style="color: brown;"><p>Fast</p></div>
+        <div class="column" style="color:red;"><p>Loved</p></div>
+        <div class="column" style="color: cadetblue;"><p>Clarity</p></div>
+        <div class="column" style="color: goldenrod;"><p>Power</p></div>   
+    </div>
+    <div class="firstRow">
+        <div class="column" style="color: purple"><p>Sharp</p></div>
+        <div class="column" style="color: lightblue;"><p>Cloud</p></div>
+        <div class="column" style="color: lightcoral;"><p>Global</p></div>
+        <div class="column" style="color: wheat;"><p>Storage</p></div>
+    </div>
+        <div class="firstRow">
+        <div class="column" style="color: rgb(98, 249, 249);"><p>Safe</p></div>
+        <div class="column" style="color: darkorchid;"><p>Stabile</p></div>
+        <div class="column" style="color: burlywood;"><p>Connected</p></div>
+        <div class="column" style="color: palevioletred;"><p>HD</p></div>
+    </div>
+    </div>
+    <div class="last_page">
+        <h1 class="h1_price">Pricing</h1>
+        <p class="pricepara">Choose a pricing plan that fits your needs.</p>
+        <div class="columns">
+            <ul class="price">
+            <li class="header"><b>Basic</b></li>
+            <li><b>250</b> Photos</li>
+            <li><b>10</b> Features</li>
+            <li><b>No</b> Ads</li>
+            <li><b>Office hours</b> Support</li>
+            <li style="color: grey;">$ 25</li>
+            <li class="grey"><button class="buttonprice">Download</button></li>
+            </ul>
+        </div>
+        <div class="columns">
+            <ul class="price">
+            <li class="header" style="background-color: #FF4433;"><b>Premium</b></li>
+            <li><b>1000</b> Photos</li>
+            <li><b>50</b> Features</li>
+            <li><b>No</b> Ads</li>
+            <li><b>Endless</b> Support</li>
+            <li style="color: grey;">$ 99</li>
+            <li class="grey"><button class="buttonprice">Download</button></li>
+            </ul>
+        </div>
+
+
+    </div>
+
+
+ <footer class="foot">
+        <p >Powered by Yara Megawer</p>
+    </footer>
+</div>
+</body>
+   
+</html>
